@@ -3,19 +3,18 @@ This project is a MVP design of a future expandable version fully autonomous bus
 
 Currently this is the project flow 
 
-User uploads dashboard
-     ↓
-OCR extracts text/values
-     ↓
-Parser structures data into dict
-     ↓
-Company metadata + dashboard → heuristic rules
-     ↓
-Structured input sent to LLM with system prompt
-     ↓
-LLM outputs business recommendations
-     ↓
-(Optionally shown in Streamlit UI)
+1. User uploads dashboard
+     
+2. OCR extracts text/values
+     
+3. Parser structures data into dict
+     
+4. Company metadata + dashboard → heuristic rules
+     
+5. Structured input sent to LLM with system prompt
+   
+6. LLM outputs business recommendations
+     
 
 
 Later on the tool can be adapted into a full chatbot with RAG and memory to assist on how to achieve business solutions
